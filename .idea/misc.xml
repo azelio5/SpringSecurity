@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/ssia-ch2-ex4/pom.xml" />
+        <option value="$PROJECT_DIR$/ssia-ch2-ex5/pom.xml" />
+        <option value="$PROJECT_DIR$/ssia-ch2-ex6/pom.xml" />
+        <option value="$PROJECT_DIR$/ssia-ch3-ex1/pom.xml" />
+        <option value="$PROJECT_DIR$/ssia-ch3-ex3/pom.xml" />
+        <option value="$PROJECT_DIR$/sssi-ch3-ex2_mine/pom.xml" />
+        <option value="$PROJECT_DIR$/ssia-ch5-ex1/pom.xml" />
+        <option value="$PROJECT_DIR$/ssia-ch5-ex2/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_23" project-jdk-name="24" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

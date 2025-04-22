@@ -1,0 +1,20 @@
+### GET request to example server
+# curl http://localhost:8080/hello
+GET http://localhost:8080/hello
+Authorization: Basic azelio 12345
+###
+
+GET http://localhost:8080/hello
+
+### GET request to example server
+# curl http://localhost:8080/hello
+GET http://localhost:8080/hello
+Authorization: Basic bill 12345
+###
+
+# curl -H "Authorization:SD9cICjl1e" http://localhost:8080/hello
+GET http://localhost:8080/hello
+Authorization: SD9cICjl1e
+
+###
+

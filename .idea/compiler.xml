@@ -6,13 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ssia-ch2-ex1" />
+        <module name="ssia-ch5-ex2" />
+        <module name="ssia-ch5-ex1" />
+        <module name="sssi-ch3-ex2_mine" />
+        <module name="ssia-ch3-ex1" />
+        <module name="demo" />
+        <module name="ssia-ch2-ex6" />
+        <module name="ssia-ch3-ex3" />
+        <module name="ssia-ch2-ex5" />
+        <module name="ssia-ch2-ex4" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ssia-ch3-ex2" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ssia-ch2-ex1" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="ssia-ch2-ex4" options="-parameters" />
+      <module name="ssia-ch2-ex5" options="-parameters" />
+      <module name="ssia-ch2-ex6" options="-parameters" />
+      <module name="ssia-ch3-ex1" options="-parameters" />
+      <module name="ssia-ch3-ex2" options="-parameters" />
+      <module name="ssia-ch3-ex3" options="-parameters" />
+      <module name="ssia-ch5-ex1" options="-parameters" />
+      <module name="ssia-ch5-ex2" options="-parameters" />
+      <module name="sssi-ch3-ex2_mine" options="-parameters" />
     </option>
   </component>
 </project>

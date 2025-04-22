@@ -1,0 +1,25 @@
+### GET request to example server
+# curl http://localhost:8080/hello
+GET http://localhost:8080/hello
+Authorization: Basic user e9750b74-b319-428a-ba7e-374ba361a138
+###
+#base64
+GET http://localhost:8080/hello
+Authorization: Basic dXNlcjplOTc1MGI3NC1iMzE5LTQyOGEtYmE3ZS0zNzRiYTM2MWExMzg=
+###
+#https
+GET https://localhost:8080/hello
+Authorization: Basic user 7655978f-8e78-43f5-a54a-d75f405e6599
+###
+# curl -H "Request-Id:12345" http://localhost:8080/hello
+GET http://localhost:8080/hello
+Request-Id: 12345
+
+###
+
+
+
+
+
+
+
