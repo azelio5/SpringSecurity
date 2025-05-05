@@ -17,6 +17,34 @@ Request-Id: 12345
 
 ###
 
+# curl -u user:99ff79e3-8ca0-401c-a396-0a8625ab3bad http://localhost:8080/hello
+#Hello, user!
+GET http://localhost:8080/hello
+Authorization: Basic user 2473d815-2828-4448-8fa7-4cb5b7f0d737
+
+###
+
+# curl -v http://localhost:8080/hello
+GET http://localhost:8080/hello
+
+###
+
+
+# curl -XPOST http://localhost:8080/hello
+POST http://localhost:8080/hello
+
+###
+
+# curl -X POST http://localhost:8080/hello
+#-H 'Cookie: JSESSIONID=21ADA55E10D70BA81C338FFBB06B0206'
+#-H 'X-CSRF-TOKEN: tAlE3LB_R_KN48DFlRChc…'
+POST http://localhost:8080/hello
+Cookie: JSESSIONID=A5843310D2C827B45A6A6D107A82D870
+X-CSRF-TOKEN: m6QrV4lccNnjGZ2sVCdjrFM95idPKlRSWhQCIdvVMLCONLD-r5wdM7k4RO7OL66fZApXlTcJyx4rHGF_aCczF--2CYXrB4fK
+
+###
+
+
 
 
 

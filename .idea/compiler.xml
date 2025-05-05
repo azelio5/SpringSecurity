@@ -8,13 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ssia-ch5-ex2" />
         <module name="ssia-ch5-ex1" />
+        <module name="ssia-ch8-ex6" />
         <module name="sssi-ch3-ex2_mine" />
-        <module name="ssia-ch3-ex1" />
+        <module name="ssia-ch6-ex4" />
         <module name="demo" />
         <module name="ssia-ch2-ex6" />
-        <module name="ssia-ch3-ex3" />
         <module name="ssia-ch2-ex5" />
         <module name="ssia-ch2-ex4" />
+        <module name="ssia-ch9-ex3" />
+        <module name="ssia-ch6-ex2" />
+        <module name="ssia-ch9-ex1" />
+        <module name="ssia-ch9-ex2" />
+        <module name="ssia-ch3-ex1" />
+        <module name="ssia-ch3-ex3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +38,12 @@
       <module name="ssia-ch3-ex3" options="-parameters" />
       <module name="ssia-ch5-ex1" options="-parameters" />
       <module name="ssia-ch5-ex2" options="-parameters" />
+      <module name="ssia-ch6-ex2" options="-parameters" />
+      <module name="ssia-ch6-ex4" options="-parameters" />
+      <module name="ssia-ch8-ex6" options="-parameters" />
+      <module name="ssia-ch9-ex1" options="-parameters" />
+      <module name="ssia-ch9-ex2" options="-parameters" />
+      <module name="ssia-ch9-ex3" options="-parameters" />
       <module name="sssi-ch3-ex2_mine" options="-parameters" />
     </option>
   </component>
