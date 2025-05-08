@@ -11,6 +11,7 @@
         <module name="ssia-ch8-ex6" />
         <module name="sssi-ch3-ex2_mine" />
         <module name="ssia-ch6-ex4" />
+        <module name="ssia-ch10-ex1" />
         <module name="demo" />
         <module name="ssia-ch2-ex6" />
         <module name="ssia-ch2-ex5" />
@@ -30,6 +31,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
+      <module name="ssia-ch10-ex1" options="-parameters" />
       <module name="ssia-ch2-ex4" options="-parameters" />
       <module name="ssia-ch2-ex5" options="-parameters" />
       <module name="ssia-ch2-ex6" options="-parameters" />
